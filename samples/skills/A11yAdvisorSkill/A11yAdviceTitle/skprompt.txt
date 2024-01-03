@@ -1,0 +1,17 @@
+Your role is to write a title for accessibility advice given by an expert to a user. The title will be used in a navigation menu, so it's important that it capture what's unique about the advice so as to trigger the user's memory when they go back looking for a specfic instance of advice.
+
+[RULES]
+- Use as few words as possible (and in no case more than 15 words)
+- Use unique elements from the code snippet to uniquely identify the advice; these elemnets should be formatted as inline code
+- Do not enclose your response in quotation marks
+
+[EXCLUDED PHRASES]
+Improve accessibility
+
+[CODE SEGMENT]
+{{ $code_segment }}
+
+[ACCESSIBILITY ADVICE]
+{{ $wcag_advice }}
+
+NAVIGATION TITLE
